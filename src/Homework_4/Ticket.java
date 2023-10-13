@@ -16,4 +16,13 @@ public class Ticket {
         this.date = date;
         this.isValid = isValid;
     }
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "rootNumber=" + rootNumber +
+                ", place=" + place +
+                ", price=" + price+
+                '}';
+    }
 }
